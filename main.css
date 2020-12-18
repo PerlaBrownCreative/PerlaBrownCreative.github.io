@@ -1,192 +1,249 @@
-
-
 h1 {
-    color: white;
-    font-size: 70px !important;
-    text-align: left;
-    font-kerning: 2px !important;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400 !important;
-    line-height: 93% !important;
-    text-align: center;
+  color: white;
+  font-size: 70px !important;
+  text-align: left;
+  font-kerning: 2px !important;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400 !important;
+  line-height: 93% !important;
+  text-align: center;
 }
 
 h4 {
-    color: white;
-    font-size: 20px !important;
-    text-align: left;
-    font-weight: 100 !important;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    text-decoration: none;
-    text-emphasis: none;
-
+  color: white;
+  font-size: 30px !important;
+  text-align: left;
+  font-weight: 100 !important;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  text-emphasis: none;
 }
 
-
-
 .mainParagraph {
-    padding-top: 50px !important;
-    height: 550px;
-    width: 100%;
-    z-index: 1;
-    
+  padding-top: 50px !important;
+  height: 550px;
+  width: 100%;
+  z-index: 1;
 }
 
 .background1 {
-    background-image: url('assets/annie-spratt-gM8igOIP5MA-unsplash\ \(1\).jpg')  ;
-    background-size: cover;
-    height: 1100px;
-    background-repeat: no-repeat;
-    
+  background-image: url('assets/annie-spratt-gM8igOIP5MA-unsplash\ \(1\).jpg');
+  background-size: cover;
+  height: 1100px;
+  background-repeat: no-repeat;
 }
 
-.heading1{
-    height: 100px;
-    width: 100%;
-    text-align: center;
-    margin-top: 120px !important;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 35px !important;
+.heading1 {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  margin-top: 120px !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 35px !important;
 }
-
-
 
 /* MARKETING CONTENT
   -------------------------------------------------- */
-  
-  /* Center align the text within the three columns below the carousel */
-  .marketing .col-lg-3 {
-      height: 400px;
-    margin-bottom: 1.5rem;
-    text-align: center;
-  }
-  .marketing h2 {
-    font-weight: 400;
-    margin-top: 35px;
-    font-size: 20px;
-    font-style: italic;
-  }
-  /* rtl:begin:ignore */
-  .marketing .col-lg-3 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-  }
-  /* rtl:end:ignore */
 
-  .portfolioSection{
-      height: 700px;
-      width: 100%;
-      background-color: grey;
-  }
+/* Center align the text within the three columns below the carousel */
 
-  .heading2{
-    height: 100px;
-    width: 100%;
-    text-align: center;
-    padding-top: 120px !important;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 35px !important;
-  }
-
-  .cSection{
-    height: 775px;
-    width: 100%;
-    background-color: White;
+.marketing .col-lg-3 {
+  height: 400px;
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
-  
 
-.heading3{
-    height: 2px;
-    width: 100%;
-    text-align: center;
-    padding-top: 120px !important;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 35px !important;
-    padding-bottom: 60px;
-  }
+.marketing h2 {
+  font-weight: 400;
+  margin-top: 35px;
+  font-size: 20px;
+  font-style: italic;
+}
 
-  .heading4{
-    height: 2px;
-    width: 100%;
-    text-align: center;
-    padding-top: 120px !important;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 35px !important;
-    padding-bottom: 40px;
-  }
+/* rtl:begin:ignore */
 
-  .form-group{
-      margin-top: 10px;
-      padding-bottom: 20px;
-  }
+.marketing .col-lg-3 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
 
-  .form-control{
-      margin-top: 15px;
-  }
+/* rtl:end:ignore */
 
-  .btn-customized{
-      margin-top: 40px;
-  }
+.portfolioSection {
+  height: 700px;
+  width: 100%;
+  background-color: grey;
+}
 
-  .outerForm{
-      margin: auto;
-      padding-top: 50px;
+.heading2 {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  padding-top: 120px !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 35px !important;
+}
 
-  }
+.cSection {
+  height: 775px;
+  width: 100%;
+  background-color: White;
+}
 
-  .btn-customized{
-      color: black;
-  }
+.heading3 {
+  height: 2px;
+  width: 100%;
+  text-align: center;
+  padding-top: 120px !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 35px !important;
+  padding-bottom: 60px;
+}
 
-  .text-muted{
-      text-align: center;
-  }
+.heading4 {
+  height: 2px;
+  width: 100%;
+  text-align: center;
+  padding-top: 120px !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 35px !important;
+  padding-bottom: 40px;
+}
 
-  /* Style all font awesome icons */
+.form-group {
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.form-control {
+  margin-top: 15px;
+}
+
+.btn-customized {
+  margin-top: 40px;
+}
+
+.outerForm {
+  margin: auto;
+  padding-top: 50px;
+}
+
+.btn-customized {
+  color: black;
+}
+
+.text-muted {
+  text-align: center;
+}
+
+/* Style all font awesome icons */
+
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+  opacity: 3;
+  color: grey;
+}
+
+.img1 {
+  margin-top: 250px;
+  height: 300px;
+  width: 300px;
+}
+
+.resume {
+  height: 100px;
+  width: 100%;
+  background-color: #212529;
+  padding-top: 40px;
+}
+
+a:link {
+  text-decoration: none;
+  color: grey;
+}
+
+.clickToViewBox {
+  border: 1px white solid;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+}
+
+.mytext1 {
+  letter-spacing: 2px;
+  position: relative;
+  animation: text 3s 1;
+}
+
+@keyframes text {
+  0% {
+    color: black;
+    margin-bottom: -20px;
   }
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 3;
-    color: grey;
+  30% {
+    letter-spacing: 25px;
+    margin-bottom: -20px;
   }
-
- .img1 {
-    margin-top: 250px;
-      height: 300px;
-      width: 300px;  
+  85% {
+    letter-spacing: 2px;
+    margin-bottom: -20px;
   }
+}
 
-  .resume{
-      height: 100px;
-      width: 100%;
-      background-color: #212529;
-      padding-top: 40px;
+.logo {
+  position: relative;
+  margin: 0;
+  z-index: 1;
+  width: 200px;
+  height: auto;
+  left: 10px;
+  top: -2px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px !important;
+  border: 1px grey solid;
+  text-align: center;
+  border-radius: 15px;
+  -webkit-transition: -webkit-transform 300ms ease;
+  transition: -webkit-transform 300ms ease;
+  transition: transform 300ms ease;
+  transition: transform 300ms ease, -webkit-transform 300ms ease;
+}
 
-  }
+.logo:hover {
+  -webkit-transform: scale(1.1) perspective(0px);
+  transform: scale(1.1) perspective(0px);
+}
 
-  a:link{
-      text-decoration: none;
-      color: grey;
-  }
+h6 {
+  font-weight: 200;
+  margin: 0.4em 0;
+  font-size: 3.5em;
+  text-align: center;
+  font-size: 20px !important;
+  color: black;
+}
 
-  .clickToViewBox{
-      border: 1px white solid;
-      padding: 10px;
-      padding-left: 40px;
-      padding-right: 40px;
-      border-radius: 20px;
-
-  }
-
-  
-
-  
+.message {
+  height: 70px;
+  width: 300px;
+  border: 3px #d4d4d4 solid;
+  margin: auto;
+  padding-top: 21px;
+  border-radius: 60px;
+  margin-bottom: 60px;
+  margin-top: -35px;
+  background-color: #ededed;
+  font-family: 'Montserrat', sans-serif;
+}
